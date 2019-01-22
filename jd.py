@@ -30,10 +30,10 @@ def accept_alert(self):
 #PC端登录
 def loginfront(backurl=""):
     browser=webdriver.Firefox()
-    account="18082183235"
-    password="thejamy13579"                                         #需要操控的浏览器
-    #account="13645100230"
-    #password="667901h"
+    account="帐号"
+    password="密码"                                         #需要操控的浏览器
+    #account="帐号"
+    #password="密码"
     browser.get(url+(("?ReturnUrl="+backurl) if not backurl=="" else "")) #导航到一个页面
     browser.maximize_window()                                           # 浏览器全屏显示
 

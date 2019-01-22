@@ -57,10 +57,10 @@ def loginfront(backurl=""):
 def loginfrontByMob(backurl=""):
     browser=webdriver.Firefox()
     url='https://plogin.m.jd.com/user/login.action'                                         #需要操控的浏览器
-    account="18082183235"
-    password="thejamy13579"
-    #account="13645100230"
-    #password="667901h"
+    account="帐号"
+    password="密码"
+    #account="帐号"
+    #password="密码"
     browser.get(url+(("?ReturnUrl="+backurl) if not backurl=="" else "")) #导航到一个页面
     browser.maximize_window()                                           # 浏览器全屏显示
 
